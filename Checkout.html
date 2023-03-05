@@ -1,0 +1,238 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Checkout</title>
+    <link rel="stylesheet" href="Checkout.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta2/css/all.min.css"
+    integrity="sha512-YWzhKL2whUzgiheMoBFwW8CKV4qpHQAEuvilg9FAn5VJUDwKZZxkJNuGM4XkWuk94WCrrwslk8yWNGmY1EduTA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />  
+</head>
+<body>
+ 
+    <header>
+
+        <section class="First_Head">
+            <div class="search_left">
+                <input type="text" name="Search" placeholder="Search">
+                <i class="fas fa-search"></i>    
+            </div>
+    
+    <div class="middle">
+        <p class="groove">Mohamed Ashraf</p>
+    </div>
+    <div class="right-icons">
+        <a href=""><i class="fa-solid fa-user"></i></a>
+        <a href=""><i class="fa-solid fa-heart"></i></a>
+        <a href=""><i class="fa-solid fa-cart-shopping"></i></a>
+        
+    </div>
+    
+        </section>
+    <br>
+    <br>
+    <br>
+    <hr>
+    
+    <section class="nav">
+        <ul class="menu">
+            <li><a class="active" href="Home.html" target="_blank">HOME</a></li>
+            <li><a href="About.html" target="_blank">ABOUT</a></li>
+            <li><a href="Shop.html" target="_blank">SHOP</a></li>
+            <li><a href="#">CATALOGUE</a></li>
+            <li><a href="#">NEWARRIVALS</a></li>
+            <li><a href="contact.html" target="_blank">CONTACT </a></li>
+        </ul>
+    </section>
+        </header>
+        <br>       
+        <div class="page">
+    
+            <a href="Home.html" target="_blank">Home</a> &nbsp; / &nbsp;
+            <a href="cart.html" target="_blank">Cart</a> &nbsp; / &nbsp;
+            <a href="Checkout.html" target="_blank">Checkout</a>
+        </div>   
+<br><br>
+
+<div class="note">
+    <p class="position">Returning customer? <a href="http://">Click here</a> to login</p>
+</div>
+<br>
+<section class="body">
+
+<div class="right">
+    <h3>Billing Details</h3>
+    <br>
+        <div class="main">
+
+            <form>
+                <label for="fname">Country*</label><br>
+                <input type="text" id="fname" name="fname" value="" placeholder="Select a country"><br>
+            </form>
+    <br>
+            
+            <form class="one">
+                <label for="fname">First name:</label>
+                <input class="be-one" type="text" id="fname" name="fname" value=""><br>
+                <label for="lname">Last name:</label><br>
+                <input class="be-one" type="text" id="lname" name="lname" value="">
+            </form>
+            
+    <br>
+
+            <form>
+                <label for="fname">Company Name*</label><br>
+                <input type="text" id="fname" name="fname" value=""><br>
+            </form>
+    <br>
+            <form class="two">
+                <label for="fname">Address*</label><br>
+                <input type="text" id="fname" name="fname" value="" placeholder="Street address">
+                <input type="text" id="lname" name="lname" value="" placeholder="Apartment,suite,unit,etc,(optional)">
+            </form>
+    <br>
+
+            <form class="three">
+                <label for="fname">State/country*</label><br>
+                <input type="text" id="fname" name="fname" value="">
+                <label for="fname">Posta/Zip*</label><br>  
+                <input type="text" id="lname" name="lname" value="" >
+            </form>
+    <br>
+            <form class="fo">
+                <label for="fname">Email Address*</label><br>
+                <input type="text" id="fname" name="fname" value="" >
+                <label for="fname">phone*</label><br>
+                <input type="text" id="lname" name="lname" value="" >
+            </form>
+    <br>
+
+        <form>
+            <input type="radio"  name="" value="">
+            <label >Create an account ?</label><br>
+            <input type="radio"  name="" value="">
+            <label >ship To A Different Address ?</label><br>
+        </form> 
+    <br>
+        <h6>Order Notes</h6><br>
+        <textarea name="Order Notes"  cols="20" rows="5" placeholder="Write Your notes here.."></textarea>
+
+        </div>
+
+
+</div>
+
+
+    <div class="left">
+        <h3>Coupone Code</h3><br>
+        <div class="left-part-one">
+            <h5>Enter Your coupon code if you have one</h5>
+            <br>
+            <div class="form">
+            <input class="width"  type="text" id="lname" name="lname" value="" placeholder="coupon code"><br><br>
+            <input class="abselute" type="submit" value="Apply">    
+        </div>
+
+    </div>
+    <div class="left-part-two">
+        <h3>Your Order</h3><br>
+
+        <div class="cost">
+            <ul>
+                <li>Product</li><br>
+                <li>Top up T-Shrit *1</li><br>
+                <li>Polo Shrit *1</li><br>
+                <li>Cart Subtotal</li><br>
+                <li>Order Total</li><br>
+            </ul>
+
+            <ul>
+                <li>Total</li><br>
+                <li>$250.00</li><br>
+                <li>$100.00</li><br>
+                <li>$350.00</li><br>
+                <li>$350.00</li><br>
+            </ul>
+        </div><br><br>
+
+    </div>
+        <div class="left-part-three">
+            <input type="text" id="lname" name="lname" value="" placeholder="Direct Bank Transfer" ><br><br> 
+            <input type="text" id="lname" name="lname" value="" placeholder="Cheque Payment" ><br><br>
+            <input type="text" id="lname" name="lname" value="" placeholder="Paypal" ><br> 
+        </div><br>
+
+         <a href="contact.html" target="_blank"> <input class="rec" type="submit" value=" Place Order"></a>  
+
+
+
+</div>
+</section>
+<br><br><hr>
+
+<section class="footer">
+    <div class="container">
+        <div class="row">
+            <div class="footer-col1">
+               <h3>Navigations</h3>
+               <div class="list">
+                <ul>
+                    <li>Sell online</li>
+                    <li>Features</li>
+                    <li>Shopping cart</li>
+                    <li>Store builder</li>
+                </ul>
+                
+                <ul>
+                    <li>Mobile commerce</li>
+                    <li>Dropshipping</li>
+                    <li>Website development</li>
+                </ul>
+                
+                <ul>
+                    <li>Point of sale</li>
+                    <li>Hardware</li>
+                    <li>Software</li>
+                </ul>
+                
+                </div>
+            </div>
+            <div class="footer-col2">
+                <h3>Promo</h3>
+               <img src="Images/hero_1.jpg">
+               <p>Finding Your Perfect Shoes <br> Promo from January 15-25,2019</p>
+            </div>
+            <div class="footer-col3">
+               <h3>Contact Info</h3>
+               <div>
+            <div class="co13-two">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>25 st west Alexandria,Egypt </p>
+            </div>
+            <br>
+            <div class="co13-two">
+                <i class="fa-solid fa-phone"></i>
+                <p>+201224801774</p>
+            </div>
+            <br>
+            <div class="co13-two">
+                <i class="fa-solid fa-envelope"></i>
+                <p>mohamedashraf101178@gmail.com</p>
+            </div>
+            <br>  
+            <div class="form">
+                <input type="text" id="lname" name="lname" value=""><br><br>
+                <input class="abselute" type="submit" value="SEND">
+            </div>
+    </div>
+</section>
+<br><br><hr>
+
+<div class="copyright" >
+    <p>Copyright @2021 All rights reserved / This template is made with by <i class="fa-solid fa-heart"></i> Mohamed Ashraf</p>
+    </div> 
+    <br>
+</body>
+</html>
